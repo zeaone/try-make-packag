@@ -1,0 +1,21 @@
+{
+    "name": "zeaone/try-make-package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "张锦志",
+            "email": "396690553@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.0"
+	},
+	"autoload":{
+		"psr-4":{
+			 "Flower\\Rose\\": "src/Flower/Rose",
+			 "Flower\\Lily\\": "src/Flower/Lily"
+		}
+	}
+}
